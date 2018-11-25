@@ -23,3 +23,21 @@ h1 {
 h1:hover {
     text-shadow: 0 5px 20px rgba(0,0,0,0.5);
 }
+
+h1:before, h1:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: attr(data-text);
+    transition: 0.5s;
+}
+
+h1:hover:before {
+    top: -10px;
+    left: 10px;
+}
+
+h1:hover:after {
+    top: -20px;
+    left: 20px;
+}
