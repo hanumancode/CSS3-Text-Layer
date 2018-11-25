@@ -5,5 +5,16 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: #000;
+    background: #f00;
+}
+
+h1 {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 6rem;
+    text-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    letter-spacing: 10px;
+    font-family: sans-serif;
 }
