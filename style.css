@@ -13,8 +13,8 @@ h1 {
     margin: 0;
     padding: 0;
     color: #fff;
-    font-size: 6rem;
-    text-shadow: 0 5px 20px rgba(4, 72, 1, 0.756);
+    font-size: 7rem;
+    text-shadow: 0 5px 20px rgba(4, 72, 1, 0.5);
     letter-spacing: 10px;
     font-family: sans-serif;
     transition: 0.5s;
@@ -30,6 +30,7 @@ h1:before, h1:after {
     left: 0;
     content: attr(data-text);
     transition: 0.5s;
+    text-shadow: 0 5px 20px rgba(4, 72, 1, 0.5);
 }
 
 h1:hover:before {
